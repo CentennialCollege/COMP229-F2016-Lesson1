@@ -9,9 +9,12 @@ namespace COMP229_F2016_Lesson1
 {
     public partial class _Default : Page
     {
+        /**
+         * <summary>This method executes every time the page loads</summary>
+         */
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            HelloLabel.Text = "Good Bye!";
         }
     }
 }
